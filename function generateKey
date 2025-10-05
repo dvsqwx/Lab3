@@ -7,4 +7,5 @@ function generateKey(length, characters) {
   return key;
 }
 
-const chars = 'WASD12345';
+const chars = '1234dfsgdg324sdf435234fds';
+console.log(generateKey(16, chars));
