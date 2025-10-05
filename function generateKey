@@ -1,0 +1,10 @@
+function generateKey(length, characters) {
+  let key = '';
+  for (let i = 0; i < length; i++) {
+    let index = random(0, characters.length - 1);
+    key = key + characters[index];
+  }
+  return key;
+}
+
+const chars = 'WASD12345';
